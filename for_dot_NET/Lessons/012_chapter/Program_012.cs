@@ -1,6 +1,6 @@
 ﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
 
 // Строгая типизация, объявление переменных
 int age; // Объявление переменной типа int с именем age
@@ -23,7 +23,7 @@ int acumaticaOrderNbr = 101;
 
 // Чувствительность к регистру
 // productName - не равно ProductName
-
+Console.WriteLine("Hello, World!");
 Console.WriteLine("Какой-то текст");
 Console.WriteLine("Наименование товара " + productName);
 Console.WriteLine("Ценник " + price);
@@ -36,3 +36,8 @@ double z = 5;
 double result = x * y * z;
 Console.WriteLine(result);
 
+
+Week today = Week.Mon;
+Console.WriteLine("enum: " + today);
+
+enum Week { Mon, Tue, Wed, Thu, Fri, Sat, Sun };
