@@ -1,7 +1,5 @@
 ﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
 // See https://aka.ms/new-console-template for more information
-
-
 // Строгая типизация, объявление переменных
 int age; // Объявление переменной типа int с именем age
 double salary; // Объявление переменной типа double с именем salary
@@ -35,9 +33,7 @@ double y = 4;
 double z = 5;
 double result = x * y * z;
 Console.WriteLine(result);
-
-
+//enum example
 Week today = Week.Mon;
 Console.WriteLine("enum: " + today);
-
 enum Week { Mon, Tue, Wed, Thu, Fri, Sat, Sun };
